@@ -1,0 +1,31 @@
+/* Header */
+.navbar {
+	padding: 10px 0;
+}
+.navbar-brand.logo {
+	height: auto;
+	padding: 0;
+}
+.navbar-brand.logo img {
+	display: block;
+	height: 50px;
+}
+
+.navbar .navbar-nav > .active > a ,
+.navbar .navbar-nav > .active > a:hover {
+	background: transparent;
+	box-shadow: none;
+}
+
+/* Brew info */
+.page {
+	padding-top: 100px;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
