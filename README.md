@@ -1,4 +1,5 @@
 First test react work.
+Parsed some information from API http://www.brewerydb.com/
 
 <p align="center">
  
